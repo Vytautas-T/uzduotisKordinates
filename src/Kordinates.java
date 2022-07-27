@@ -2,9 +2,15 @@ public class Kordinates {
     private double x;
     private double y;
 
-    public Kordinates(double x, double y) {
+    private  double x1;
+
+    private  double y1;
+
+    public Kordinates(double x, double y, double x1, double y1) {
         this.x = x;
         this.y = y;
+        this.x1 = x1;
+        this.y1 = y1;
     }
 
     public void swap(){
